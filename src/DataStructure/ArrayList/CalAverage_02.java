@@ -2,7 +2,7 @@ package DataStructure.ArrayList;
 
 import java.util.Scanner;
 
-public class CalAverage {
+public class CalAverage_02 {
     /*
      * 문제 :
      * 세준이는 기말고사를 망쳤다. 그래서 점수를 조작해 집에 가져가기로 결심했다. 일단 세준이는 자기 점수 중 최댓값을 골랐다.
@@ -37,6 +37,7 @@ public class CalAverage {
         /*변환 점수 평균 공식_점수(A,B,C)라면
          * (A/M*100 + B/M*100 + C/M*100) / 3 = (A+B+C)*100/M/3
          */
+        // 한 과목과 관련된 수식을 총합한 후 관련된 수식으로 변환해 로직이 간단해진다.
         System.out.println(sum * 100.0 / M / N);
 
     }
